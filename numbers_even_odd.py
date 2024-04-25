@@ -1,6 +1,15 @@
 # Introduction
-print('Instruction: This program creates new text files and categorizes '
-      'the numbers from "numbers.txt" into even and odd numbers.')
+while True:
+    print('Instruction: This program creates new text files and categorizes '
+          'the numbers from "numbers.txt" into even and odd numbers.')
+    
+    looping = input('Do you wish to continue? (y/n): ')
+    if looping == 'y':
+        print('Execution completed.\nThank you for using this program!')
+        break
+    else:
+        print('End of program ...........')
+        break
 
 # Read integers from "number.txt" file
 with open("numbers.txt", "r") as new_file:
