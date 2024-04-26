@@ -1,4 +1,6 @@
 # Introduction
+print('Instruction: This program reveals the student with the highest'
+      'Grade Weighted Average (GWA) and their corresponding GWA.')
 # Assign the variable
 # Read the text file called, "student, data"
 # Identify the student with the highest GWA
