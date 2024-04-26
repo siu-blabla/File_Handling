@@ -20,3 +20,5 @@ with open("triple.txt", "a") as file:
     for cube in cubed_odd:
         file.write(f'{cube}\n')
 # Successful Execution Message
+print('Execution completed without errors.\nThank you for using this program!')
+
