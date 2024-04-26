@@ -8,6 +8,7 @@ with open("integers.txt", "r") as new_file:
 even_numbers = [num for num in integers if num % 2 == 0]
 odd_numbers = [num for num in integers if num % 2 != 0]
 # Calculation: Square all the even numbers
+squared_even = [number ** 2 for number in even_numbers]
 # Calculations: Cube all the odd numbers
 # Creating squared even text file
 # Creating cubed odd text file
