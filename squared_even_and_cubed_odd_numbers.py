@@ -26,9 +26,9 @@ with open("double.txt", "a") as new_file:
         new_file.write(f'{square}\n')
 
 # Creating cubed odd text file
-with open("triple.txt", "a") as file:
+with open("triple.txt", "a") as new_file:
     for cube in cubed_odd:
-        file.write(f'{cube}\n')
+        new_file.write(f'{cube}\n')
 
 # Successful Execution Message
 print('EXECUTION COMPLETED.\n'
