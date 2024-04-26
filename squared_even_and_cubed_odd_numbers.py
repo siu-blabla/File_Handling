@@ -12,5 +12,8 @@ squared_even = [number ** 2 for number in even_numbers]
 # Calculations: Cube all the odd numbers
 cubed_odd = [number ** 3 for number in odd_numbers]
 # Creating squared even text file
+with open("double.txt", "a") as new_file:
+    for square in squared_even:
+        new_file.write(f'{square}\n')
 # Creating cubed odd text file
 # Successful Execution Message
