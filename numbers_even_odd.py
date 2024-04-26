@@ -14,8 +14,7 @@ while True:
 
 # Read integers from "number.txt" file
 with open("numbers.txt", "r") as new_file:
-    numbers = new_file.read().split()
-    numbers = (int(num) for num in numbers)     # Assigning numbers to integer
+    numbers = [int(line.strip()) for line in new_file]
 
 # Separate even and odd
 even_numbers = [num for num in numbers if num % 2 == 0]
